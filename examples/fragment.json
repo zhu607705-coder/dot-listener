@@ -1,0 +1,12 @@
+{
+  "id": "8c1d3a96-9145-462a-aa3b-1ec4a1497edb",
+  "session_id": "db6b49c5-45c7-4f2c-9c89-046875b2be81",
+  "started_at": "2026-10-21T09:00:00+08:00",
+  "ended_at": "2026-10-21T09:00:12+08:00",
+  "timezone": "Asia/Shanghai",
+  "text": "【合成演示，不是真实录音】明天下午先讨论实验方案，具体时间还没有确定。",
+  "source": "synthetic_demo",
+  "asr_engine": "fixture-not-an-asr-model",
+  "language": "zh",
+  "publish_to_dot": true
+}

@@ -1,0 +1,14 @@
+WARNING: The directory '/home/oai/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Obtaining file:///mnt/data/dot-listener
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: dot-listener
+  Building editable for dot-listener (pyproject.toml): started
+  Building editable for dot-listener (pyproject.toml): finished with status 'done'
+  Created wheel for dot-listener: filename=dot_listener-0.1.0-0.editable-py3-none-any.whl size=1399 sha256=d48aa520817219d24c1316a76596d397964397e40907082ce173f72ff5b64c43
+  Stored in directory: /tmp/pip-ephem-wheel-cache-wgr52pdg/wheels/96/69/19/ff8bc72399ce8813f68929079a99d59c6baa115028a4ac2a47
+Successfully built dot-listener
+Installing collected packages: dot-listener
+Successfully installed dot-listener-0.1.0

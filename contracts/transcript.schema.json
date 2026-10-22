@@ -1,0 +1,73 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "format": "uuid",
+      "title": "Id",
+      "type": "string"
+    },
+    "session_id": {
+      "format": "uuid",
+      "title": "Session Id",
+      "type": "string"
+    },
+    "started_at": {
+      "format": "date-time",
+      "title": "Started At",
+      "type": "string"
+    },
+    "ended_at": {
+      "format": "date-time",
+      "title": "Ended At",
+      "type": "string"
+    },
+    "timezone": {
+      "title": "Timezone",
+      "type": "string"
+    },
+    "text": {
+      "maxLength": 24000,
+      "minLength": 1,
+      "title": "Text",
+      "type": "string"
+    },
+    "source": {
+      "enum": [
+        "phone_microphone",
+        "watch_import",
+        "synthetic_demo"
+      ],
+      "title": "Source",
+      "type": "string"
+    },
+    "asr_engine": {
+      "maxLength": 120,
+      "minLength": 1,
+      "title": "Asr Engine",
+      "type": "string"
+    },
+    "language": {
+      "default": "zh",
+      "maxLength": 24,
+      "title": "Language",
+      "type": "string"
+    },
+    "publish_to_dot": {
+      "default": false,
+      "title": "Publish To Dot",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "session_id",
+    "started_at",
+    "ended_at",
+    "timezone",
+    "text",
+    "source",
+    "asr_engine"
+  ],
+  "title": "Fragment",
+  "type": "object"
+}

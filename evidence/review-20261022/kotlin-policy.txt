@@ -1,0 +1,5 @@
+Kotlin policy checks passed: 1451 assertions. Android APIs not tested.
+Compiler: Gradle-bundled Kotlin 2.3.0; runtime OpenJDK 21.
+Inputs: CapturePolicy.kt and core-tests/CapturePolicyCheck.kt.
+Command: java -cp <gradle-lib/*> org.jetbrains.kotlin.cli.jvm.K2JVMCompiler -no-stdlib -no-reflect -classpath <kotlin-stdlib.jar> android/app/src/main/java/dev/dotlistener/CapturePolicy.kt android/core-tests/CapturePolicyCheck.kt -d <temporary-jar>
+Then: java -cp <temporary-jar>:<kotlin-stdlib.jar> CapturePolicyCheckKt

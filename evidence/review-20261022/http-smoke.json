@@ -1,0 +1,12 @@
+{
+  "surface": "real localhost HTTP; synthetic input; no dot",
+  "checks_passed": 6,
+  "checks": [
+    "real uvicorn server starts on loopback",
+    "HTTP ingestion returns honest receipt",
+    "HTTP replay is idempotent",
+    "HTTP original text round trip",
+    "HTTP reader cannot delete",
+    "HTTP deleted ID cannot be resurrected"
+  ]
+}

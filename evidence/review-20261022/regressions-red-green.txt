@@ -1,0 +1,5 @@
+UTC conversion before fix: 2 failed, 31 deselected; OverflowError: date value out of range at models.py aware().
+After fix: both cases included in 62 passing Python tests.
+Kotlin read policy before fix: IllegalStateException: Read must not start after stop.
+After fix: six new read policy assertions included in 1451 passing JVM assertions.
+Android service locking/startId changes reviewed statically; Android APIs/device not tested.
