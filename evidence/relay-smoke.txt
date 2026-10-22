@@ -1,0 +1,59 @@
+1. 文本入库 {
+  "id": "8c1d3a96-9145-462a-aa3b-1ec4a1497edb",
+  "duplicate": false,
+  "stored": true,
+  "published": true,
+  "dot_delivery": "not_implemented"
+}
+2. 相同片段重传 {
+  "id": "8c1d3a96-9145-462a-aa3b-1ec4a1497edb",
+  "duplicate": true,
+  "stored": true,
+  "published": true,
+  "dot_delivery": "not_implemented"
+}
+3. 读取已发布索引 {
+  "items": [
+    {
+      "seq": 1,
+      "id": "8c1d3a96-9145-462a-aa3b-1ec4a1497edb",
+      "deleted": false,
+      "started_at": "2026-10-21T01:00:00Z",
+      "ended_at": "2026-10-21T01:00:12Z",
+      "timezone": "Asia/Shanghai",
+      "source": "synthetic_demo"
+    }
+  ],
+  "next_after_seq": 1
+}
+4. 读取转写原文 {
+  "fragment": {
+    "asr_engine": "fixture-not-an-asr-model",
+    "ended_at": "2026-10-21T01:00:12Z",
+    "id": "8c1d3a96-9145-462a-aa3b-1ec4a1497edb",
+    "language": "zh",
+    "publish_to_dot": true,
+    "session_id": "db6b49c5-45c7-4f2c-9c89-046875b2be81",
+    "source": "synthetic_demo",
+    "started_at": "2026-10-21T01:00:00Z",
+    "text": "【合成演示，不是真实录音】明天下午先讨论实验方案，具体时间还没有确定。",
+    "timezone": "Asia/Shanghai"
+  },
+  "retrieved_at": "2026-10-22T02:45:35.422143+00:00",
+  "trust": "untrusted_transcript",
+  "memory_write_confirmed": false
+}
+5. 查看事件待发队列 {
+  "items": [
+    {
+      "seq": 1,
+      "event_id": "d77e5e58-88ca-4302-9211-15ca4a957ff7",
+      "name": "transcript.ready",
+      "fragment_id": "8c1d3a96-9145-462a-aa3b-1ec4a1497edb",
+      "occurred_at": "2026-10-22T02:45:35.404229+00:00",
+      "status": "pending_not_dispatched"
+    }
+  ],
+  "dispatcher": "not_implemented"
+}
+BOUNDARY: dot is NOT connected; no ASR or microphone was used.

@@ -218,3 +218,33 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Dot Listener local runtime and build outputs
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+build/
+dist/
+.gradle/
+local.properties
+*.apk
+*.aab
+*.jks
+*.keystore
+runtime/
+models/
+recordings/
+*.wav
+*.pcm
+*.enc
+*.part
+*.db
+*.sqlite*
+*.onnx
+*.aar
+.DS_Store

@@ -1,0 +1,40 @@
+{
+  "surface": "synthetic browser demo, not a device or dot test",
+  "checks_passed": 22,
+  "checks": [
+    "initial add disabled",
+    "start updates recording state",
+    "new fragment queued",
+    "offline queue retained",
+    "offline does not stop capture",
+    "online sync drains queue",
+    "sync increments stored counter",
+    "stored is not read",
+    "explicit simulated read",
+    "interrupt visible",
+    "sleep gates capture",
+    "pause cannot bypass sleep",
+    "wake does not start recording",
+    "delete leaves tombstone",
+    "export explicitly synthetic",
+    "export removes deleted text",
+    "wake advances synthetic calendar day",
+    "desktop no horizontal overflow",
+    "mobile no horizontal overflow",
+    "reset removes fragments",
+    "no JavaScript errors",
+    "no external network requests"
+  ],
+  "javascript_errors": [],
+  "external_requests": [],
+  "viewports": [
+    [
+      1440,
+      1100
+    ],
+    [
+      390,
+      844
+    ]
+  ]
+}

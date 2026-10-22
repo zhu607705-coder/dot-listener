@@ -1,0 +1,6 @@
+Command: .venv/bin/python -m pytest -q
+Python 3.13.12 / macOS
+..............................................................           [100%]
+62 passed, 1 warning in 2.76s
+Warning: upstream Starlette TestClient uses deprecated anyio.abc.BlockingPortal alias.
+Result copied from the execution output; local absolute paths omitted.
